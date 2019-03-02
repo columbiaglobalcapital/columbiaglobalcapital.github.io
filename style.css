@@ -51,9 +51,8 @@ header .logo-wrapper img{
     color: #FFD700;
 }
 .video-wrapper {
-    position: fixed;
-    right: 0;
-    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
     overflow: hidden;
     overflow: hidden;
     z-index: -1
