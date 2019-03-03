@@ -53,8 +53,6 @@ header .logo-wrapper img{
 .video-wrapper {
     min-width: 100%;
     min-height: 100%;
-    overflow: hidden;
-    overflow: hidden;
     z-index: -1
 }
 
