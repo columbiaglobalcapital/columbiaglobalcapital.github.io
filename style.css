@@ -45,17 +45,19 @@ header .logo-wrapper img{
 }
 .nav-bar-links .divider{
     color:#fff;
-    margin:0 29px
+    margin:0 29px;
 }
 .nav-bar-links a:hover {
     color: #FFD700;
 }
 .video-wrapper {
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-    background-repeat: no-repeat;
-    background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .bg-video {
